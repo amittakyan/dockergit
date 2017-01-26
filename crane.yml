@@ -4,6 +4,6 @@ containers:
     run:
       detach: true
       publish:
-          - 8083:8080
+          - 8080:8080
       volume:
 - /var/config:/var/config:ro
