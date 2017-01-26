@@ -1,0 +1,9 @@
+containers:
+  webapp:
+    image: 'amittakyan/javatomcatnexusrepo:1.0.0'
+    run:
+      detach: true
+      publish:
+          - 8083:8080
+      volume:
+- /var/config:/var/config:ro
