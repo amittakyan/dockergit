@@ -1,6 +1,6 @@
 containers:
   webapp:
-    image: 'amittakyan/javatomcatnexusrepo:1.0.0'
+    image: 'amittakyan/javatomcatnexusrepo:1.1.0'
     run:
       detach: true
       publish:
